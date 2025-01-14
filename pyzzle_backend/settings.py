@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pg!$h72a*h0h^+l)q&+t@j+zirgzqr86_3i+b=)m2jh_gt(0jr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["pyzzle-backend.onrender.com"]
+ALLOWED_HOSTS = ["pyzzle-backend.onrender.com", "localhost"]
 
 # Application definition
 

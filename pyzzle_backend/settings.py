@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pg!$h72a*h0h^+l)q&+t@j+zirgzqr86_3i+b=)m2jh_gt(0jr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://euphonious-muffin-eceee5.netlify.app/"]
+ALLOWED_HOSTS = ["pyzzle-backend.onrender.com"]
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://euphonious-muffin-eceee5.netlify.app/",
+    "http://localhost:5173",
 ]
 
 ROOT_URLCONF = 'pyzzle_backend.urls'

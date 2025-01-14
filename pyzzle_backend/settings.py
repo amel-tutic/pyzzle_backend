@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["pyzzle-backend.onrender.com"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -55,6 +54,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://euphonious-muffin-eceee5.netlify.app"
 ]
 
 ROOT_URLCONF = 'pyzzle_backend.urls'

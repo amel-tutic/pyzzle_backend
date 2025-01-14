@@ -52,10 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "https://euphonious-muffin-eceee5.netlify.app"
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'pyzzle_backend.urls'
 
